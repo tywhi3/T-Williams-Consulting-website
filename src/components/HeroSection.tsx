@@ -46,7 +46,7 @@ const HeroSection = () => {
           <div className="w-full md:w-1/2 flex justify-center">
             <div className="relative w-60 h-60 md:w-80 md:h-80">
               <img 
-                src="/lovable-uploads/bb18cb6a-6eb4-4bff-a465-99d34e16ff29.png" 
+                src="/lovable-uploads/98644b35-5de8-43ef-9ba7-d3a40b1e03af.png" 
                 alt="TWC Consulting Logo" 
                 className="w-full h-full object-contain"
               />
