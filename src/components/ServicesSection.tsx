@@ -1,5 +1,5 @@
 
-import { Building, Users, GraduationCap, CheckCircle, TrendingUp, Briefcase, Cog } from 'lucide-react';
+import { Building, Users, GraduationCap, CheckCircle, TrendingUp, Briefcase, Cog, FileText, Monitor, ClipboardList } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
 
@@ -18,10 +18,16 @@ const ServicesSection = () => {
       icon: <Cog size={24} />
     },
     {
-      title: "Business Coaching",
-      description: "One-on-one guidance to help you navigate business challenges.",
-      features: ["Leadership development", "Decision-making support", "Problem-solving strategies", "Accountability partnership"],
-      icon: <Briefcase size={24} />
+      title: "Requirements Analysis",
+      description: "Define and document your system and business requirements.",
+      features: ["User story development", "Functional requirements", "Technical specifications", "Stakeholder interviews", "Requirements validation"],
+      icon: <ClipboardList size={24} />
+    },
+    {
+      title: "Technical Documentation",
+      description: "Create comprehensive documentation for your systems and processes.",
+      features: ["System documentation", "User guides", "Process documentation", "Training materials", "Knowledge transfer"],
+      icon: <FileText size={24} />
     }
   ];
 
@@ -33,12 +39,12 @@ const ServicesSection = () => {
           <div className="w-24 h-1 bg-brand-blush mx-auto mb-6"></div>
           <p className="font-montserrat text-brand-slate max-w-2xl mx-auto">
             We offer a comprehensive range of services designed to help your small business thrive 
-            through strategic planning, process optimization, and personalized coaching.
+            through strategic planning, process optimization, and technical documentation.
           </p>
         </div>
 
         {/* Service Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {businessServices.map((service, index) => (
             <div 
               key={index} 
@@ -78,9 +84,9 @@ const ServicesSection = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-12">
             {[
-              { icon: <GraduationCap size={24} />, label: "Professional Development" },
-              { icon: <Users size={24} />, label: "Team Building" },
-              { icon: <Building size={24} />, label: "Business Analysis" }
+              { icon: <Monitor size={24} />, label: "Process Automation Support" },
+              { icon: <Users size={24} />, label: "PMO and Template Support" },
+              { icon: <Building size={24} />, label: "System Documentation" }
             ].map((item, index) => (
               <div key={index} className="flex flex-col items-center">
                 <div className="w-16 h-16 rounded-full bg-brand-beige flex items-center justify-center mb-3">

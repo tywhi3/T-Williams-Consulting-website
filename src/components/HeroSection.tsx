@@ -24,7 +24,7 @@ const HeroSection = () => {
               Business Operations
             </h1>
             <p className="font-montserrat text-brand-soft-gray mb-8 max-w-md mx-auto md:mx-0">
-              Expert guidance for small business operations and strategic planning. We provide tailored solutions to optimize your business processes and drive growth.
+              Expert guidance for small business operations, process optimization, and technical documentation. We provide tailored solutions to streamline your business processes and drive growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button 
@@ -46,7 +46,7 @@ const HeroSection = () => {
           <div className="w-full md:w-1/2 flex justify-center">
             <div className="relative w-60 h-60 md:w-80 md:h-80">
               <img 
-                src="public/lovable-uploads/cf80d261-4616-41ad-8acf-c29236c1aadf.png" 
+                src="public/lovable-uploads/bb18cb6a-6eb4-4bff-a465-99d34e16ff29.png" 
                 alt="TWC Consulting Logo" 
                 className="w-full h-full object-contain"
               />

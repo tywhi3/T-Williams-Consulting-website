@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <h3 className="font-cormorant text-xl font-semibold mb-4">T. Williams Consulting</h3>
             <p className="font-montserrat text-sm text-brand-soft-gray mb-6 max-w-xs">
-              Elevating your business operations with expert guidance and strategic solutions.
+              Elevating your business operations with expert guidance, process optimization, and technical documentation solutions.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-brand-soft-gray hover:text-brand-blush transition-colors">
@@ -50,10 +50,10 @@ const Footer = () => {
             <ul className="space-y-2 font-montserrat text-sm">
               <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Strategic Business Planning</a></li>
               <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Process Optimization</a></li>
-              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Business Coaching</a></li>
-              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Professional Development</a></li>
-              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Team Building</a></li>
-              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Business Analysis</a></li>
+              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Requirements Analysis</a></li>
+              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Technical Documentation</a></li>
+              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Process Automation Support</a></li>
+              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">PMO and Template Support</a></li>
             </ul>
           </div>
           
@@ -93,7 +93,7 @@ const Footer = () => {
               &copy; {currentYear} T. Williams Consulting. All rights reserved.
             </p>
             <p className="font-montserrat text-xs text-brand-soft-gray/70 mt-2 md:mt-0 text-center md:text-right">
-              Elevating Business Operations | Small Business Consulting
+              Process Analysis & Technical Documentation | Small Business Operations
             </p>
           </div>
         </div>

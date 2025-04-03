@@ -6,10 +6,10 @@ const AboutSection = () => {
     <section id="about" className="py-20 bg-brand-beige/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-cormorant text-3xl md:text-4xl font-bold text-brand-navy mb-4">About TGC Consulting</h2>
+          <h2 className="font-cormorant text-3xl md:text-4xl font-bold text-brand-navy mb-4">About TWC Consulting</h2>
           <div className="w-24 h-1 bg-brand-blush mx-auto mb-6"></div>
           <p className="font-montserrat text-brand-slate max-w-2xl mx-auto">
-            We combine expertise with empathy to guide you through life's significant moments and business challenges. 
+            We combine expertise with empathy to guide small businesses through operational challenges. 
             Our approach is centered on understanding your unique needs and crafting personalized solutions.
           </p>
         </div>
@@ -19,22 +19,22 @@ const AboutSection = () => {
             {
               icon: <Heart className="w-10 h-10 text-brand-blush" />,
               title: "Personalized Approach",
-              description: "We tailor our services to your unique preferences and requirements."
+              description: "We tailor our services to your unique business requirements and objectives."
             },
             {
               icon: <Compass className="w-10 h-10 text-brand-navy" />,
               title: "Expert Guidance",
-              description: "Navigate complex decisions with our experienced consultants by your side."
+              description: "Navigate complex business decisions with our experienced consultants by your side."
             },
             {
               icon: <Award className="w-10 h-10 text-brand-blush" />,
               title: "Attention to Detail",
-              description: "We meticulously manage every aspect to ensure flawless execution."
+              description: "We meticulously document and analyze every aspect to ensure optimal outcomes."
             },
             {
               icon: <Clock className="w-10 h-10 text-brand-navy" />,
               title: "Timely Delivery",
-              description: "Count on us to meet deadlines and keep your projects on schedule."
+              description: "Count on us to meet deadlines and keep your business operations on schedule."
             }
           ].map((item, index) => (
             <div 
