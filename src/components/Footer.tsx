@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <h3 className="font-cormorant text-xl font-semibold mb-4">T. Williams Consulting</h3>
             <p className="font-montserrat text-sm text-brand-soft-gray mb-6 max-w-xs">
-              Navigating your journey to success with expert guidance for weddings and business.
+              Elevating your business operations with expert guidance and strategic solutions.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-brand-soft-gray hover:text-brand-blush transition-colors">
@@ -48,12 +48,12 @@ const Footer = () => {
           <div>
             <h3 className="font-cormorant text-xl font-semibold mb-4">Our Services</h3>
             <ul className="space-y-2 font-montserrat text-sm">
-              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Full Wedding Planning</a></li>
-              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Day-of Coordination</a></li>
               <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Strategic Business Planning</a></li>
               <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Process Optimization</a></li>
               <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Business Coaching</a></li>
               <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Professional Development</a></li>
+              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Team Building</a></li>
+              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Business Analysis</a></li>
             </ul>
           </div>
           
@@ -61,7 +61,7 @@ const Footer = () => {
           <div>
             <h3 className="font-cormorant text-xl font-semibold mb-4">Stay Updated</h3>
             <p className="font-montserrat text-sm text-brand-soft-gray mb-4">
-              Subscribe to our newsletter for tips, insights, and special offers.
+              Subscribe to our newsletter for business tips, insights, and special offers.
             </p>
             <form className="mb-4">
               <div className="flex">
@@ -93,7 +93,7 @@ const Footer = () => {
               &copy; {currentYear} T. Williams Consulting. All rights reserved.
             </p>
             <p className="font-montserrat text-xs text-brand-soft-gray/70 mt-2 md:mt-0 text-center md:text-right">
-              Navigating Success Together | Wedding & Business Consulting
+              Elevating Business Operations | Small Business Consulting
             </p>
           </div>
         </div>

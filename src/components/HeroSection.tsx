@@ -20,11 +20,11 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-1/2 text-center md:text-left mb-12 md:mb-0">
             <h1 className="font-cormorant text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Navigating Your <br className="hidden md:block" />
-              Journey to Success
+              Elevating Your <br className="hidden md:block" />
+              Business Operations
             </h1>
             <p className="font-montserrat text-brand-soft-gray mb-8 max-w-md mx-auto md:mx-0">
-              Expert guidance for wedding planning and business consulting. We provide tailored solutions to turn your vision into reality.
+              Expert guidance for small business operations and strategic planning. We provide tailored solutions to optimize your business processes and drive growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button 
@@ -47,7 +47,7 @@ const HeroSection = () => {
             <div className="relative w-60 h-60 md:w-80 md:h-80">
               <img 
                 src="public/lovable-uploads/cf80d261-4616-41ad-8acf-c29236c1aadf.png" 
-                alt="TGC Consulting Logo" 
+                alt="TWC Consulting Logo" 
                 className="w-full h-full object-contain"
               />
             </div>

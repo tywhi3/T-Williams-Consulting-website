@@ -50,7 +50,7 @@ const Navbar = () => {
               variant="outline" 
               className="bg-transparent border-brand-blush text-brand-navy hover:bg-brand-blush/10 hover:text-brand-navy transition-all"
             >
-              Book a Consultation
+              Business Consultation
             </Button>
           </div>
 
@@ -100,7 +100,7 @@ const Navbar = () => {
                 variant="outline" 
                 className="w-full bg-transparent border-brand-blush text-brand-navy hover:bg-brand-blush/10 hover:text-brand-navy transition-all"
               >
-                Book a Consultation
+                Business Consultation
               </Button>
             </div>
           </div>
