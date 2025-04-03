@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="font-cormorant text-xl font-semibold mb-4">TGC Consulting</h3>
+            <h3 className="font-cormorant text-xl font-semibold mb-4">T. Williams Consulting</h3>
             <p className="font-montserrat text-sm text-brand-soft-gray mb-6 max-w-xs">
               Navigating your journey to success with expert guidance for weddings and business.
             </p>
@@ -90,7 +90,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="font-montserrat text-sm text-brand-soft-gray text-center md:text-left">
-              &copy; {currentYear} TGC Consulting. All rights reserved.
+              &copy; {currentYear} T. Williams Consulting. All rights reserved.
             </p>
             <p className="font-montserrat text-xs text-brand-soft-gray/70 mt-2 md:mt-0 text-center md:text-right">
               Navigating Success Together | Wedding & Business Consulting

@@ -36,7 +36,7 @@ const Navbar = () => {
             href="#" 
             className="text-brand-navy font-cormorant text-2xl font-semibold tracking-wider"
           >
-            TGC
+            TWC
           </a>
 
           {/* Desktop Navigation */}
