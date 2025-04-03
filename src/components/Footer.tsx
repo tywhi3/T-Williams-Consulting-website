@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <h3 className="font-cormorant text-xl font-semibold mb-4">T. Williams Consulting</h3>
             <p className="font-montserrat text-sm text-brand-soft-gray mb-6 max-w-xs">
-              Elevating your business operations with expert guidance, process optimization, and technical documentation solutions.
+              Elevating small business operations with expert guidance, process optimization, and technical documentation solutions.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-brand-soft-gray hover:text-brand-blush transition-colors">
@@ -48,7 +48,7 @@ const Footer = () => {
           <div>
             <h3 className="font-cormorant text-xl font-semibold mb-4">Our Services</h3>
             <ul className="space-y-2 font-montserrat text-sm">
-              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Strategic Business Planning</a></li>
+              <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Strategic Planning & Goal Setting</a></li>
               <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Process Optimization</a></li>
               <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Requirements Analysis</a></li>
               <li><a href="#" className="text-brand-soft-gray hover:text-white transition-colors">Technical Documentation</a></li>
@@ -61,7 +61,7 @@ const Footer = () => {
           <div>
             <h3 className="font-cormorant text-xl font-semibold mb-4">Stay Updated</h3>
             <p className="font-montserrat text-sm text-brand-soft-gray mb-4">
-              Subscribe to our newsletter for business tips, insights, and special offers.
+              Subscribe to our newsletter for small business tips, insights, and special offers.
             </p>
             <form className="mb-4">
               <div className="flex">

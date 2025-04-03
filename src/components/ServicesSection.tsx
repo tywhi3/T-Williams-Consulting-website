@@ -7,8 +7,8 @@ const ServicesSection = () => {
   const businessServices = [
     {
       title: "Strategic Planning",
-      description: "Develop comprehensive strategies to achieve your business goals.",
-      features: ["Market analysis", "Competitive positioning", "Growth strategies", "Goal setting", "Implementation roadmap"],
+      description: "Develop actionable strategies for your small business success.",
+      features: ["Goal setting", "Mission, Vision & Values", "Implementation roadmap", "Priority alignment", "Success metrics"],
       icon: <TrendingUp size={24} />
     },
     {
@@ -80,7 +80,7 @@ const ServicesSection = () => {
         {/* Additional Service Icons */}
         <div className="mt-16 text-center">
           <p className="font-montserrat text-brand-slate mb-8">
-            Our services extend beyond these core offerings. Contact us to discover how we can help with your specific business needs.
+            Our services extend beyond these core offerings. Contact us to discover how we can help with your specific small business needs.
           </p>
           <div className="flex flex-wrap justify-center gap-12">
             {[

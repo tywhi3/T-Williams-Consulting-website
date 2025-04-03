@@ -9,8 +9,9 @@ const AboutSection = () => {
           <h2 className="font-cormorant text-3xl md:text-4xl font-bold text-brand-navy mb-4">About TWC Consulting</h2>
           <div className="w-24 h-1 bg-brand-blush mx-auto mb-6"></div>
           <p className="font-montserrat text-brand-slate max-w-2xl mx-auto">
-            We combine expertise with empathy to guide small businesses through operational challenges. 
-            Our approach is centered on understanding your unique needs and crafting personalized solutions.
+            We specialize in helping small businesses optimize their operations through process analysis, 
+            strategic planning, and comprehensive technical documentation. Our approach is centered on understanding 
+            your unique small business needs and crafting personalized solutions.
           </p>
         </div>
 
@@ -18,13 +19,13 @@ const AboutSection = () => {
           {[
             {
               icon: <Heart className="w-10 h-10 text-brand-blush" />,
-              title: "Personalized Approach",
-              description: "We tailor our services to your unique business requirements and objectives."
+              title: "Small Business Focus",
+              description: "We exclusively work with small businesses to provide solutions that fit your scale and needs."
             },
             {
               icon: <Compass className="w-10 h-10 text-brand-navy" />,
               title: "Expert Guidance",
-              description: "Navigate complex business decisions with our experienced consultants by your side."
+              description: "Navigate complex operational decisions with our experienced consultants by your side."
             },
             {
               icon: <Award className="w-10 h-10 text-brand-blush" />,
