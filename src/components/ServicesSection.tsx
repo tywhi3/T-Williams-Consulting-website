@@ -1,5 +1,5 @@
 
-import { Ring, Building, Users, GraduationCap, CheckCircle } from 'lucide-react';
+import { RingIcon, Building, Users, GraduationCap, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
 
@@ -70,7 +70,7 @@ const ServicesSection = () => {
               }`}
             >
               <div className="flex items-center">
-                <Ring size={16} className="mr-2" />
+                <RingIcon size={16} className="mr-2" />
                 Wedding Consulting
               </div>
             </button>
