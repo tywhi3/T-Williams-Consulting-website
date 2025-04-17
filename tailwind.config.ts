@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -60,7 +59,7 @@ export default {
 				// Brand colors
 				'brand-navy': '#2C3E50',
 				'brand-soft-gray': '#B0BEC5',
-				'brand-blush': '#F7CAC9',
+				'brand-blush': '#F97316', // Burnt Orange from Tailwind's orange-500
 				'brand-beige': '#F5F5DC',
 				'brand-slate': '#6D7D8B',
 			},

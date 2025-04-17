@@ -1,4 +1,3 @@
-
 import { Heart, Compass, Award, Clock } from 'lucide-react';
 
 const AboutSection = () => {

@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
 
@@ -12,10 +11,8 @@ const HeroSection = () => {
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background with overlay */}
       <div className="absolute inset-0 bg-brand-navy/95 z-0"></div>
       
-      {/* Content */}
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-1/2 text-center md:text-left mb-12 md:mb-0">
@@ -55,7 +52,6 @@ const HeroSection = () => {
         </div>
       </div>
       
-      {/* Scroll indicator */}
       <div 
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer animate-bounce"
         onClick={() => scrollToSection('about')}

@@ -1,4 +1,3 @@
-
 import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
 
 const Footer = () => {
@@ -82,6 +81,18 @@ const Footer = () => {
               We respect your privacy and will never share your information.
             </p>
           </div>
+        </div>
+        
+        <div className="mt-8 pt-6 border-t border-brand-soft-gray/20">
+          <p className="font-montserrat text-sm text-brand-slate mb-4">
+            Prefer to schedule a specific time? Book a consultation:
+          </p>
+          <Button 
+            className="w-full bg-transparent hover:bg-brand-blush/10 text-brand-navy border border-brand-blush"
+            variant="outline"
+          >
+            Schedule a Consultation
+          </Button>
         </div>
       </div>
       

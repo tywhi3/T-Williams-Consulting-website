@@ -1,7 +1,5 @@
-
 import { Building, Users, GraduationCap, CheckCircle, TrendingUp, Briefcase, Cog, FileText, Monitor, ClipboardList } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { useState } from 'react';
 
 const ServicesSection = () => {
   const businessServices = [
@@ -43,7 +41,6 @@ const ServicesSection = () => {
           </p>
         </div>
 
-        {/* Service Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {businessServices.map((service, index) => (
             <div 
@@ -77,7 +74,6 @@ const ServicesSection = () => {
           ))}
         </div>
 
-        {/* Additional Service Icons */}
         <div className="mt-16 text-center">
           <p className="font-montserrat text-brand-slate mb-8">
             Our services extend beyond these core offerings. Contact us to discover how we can help with your specific small business needs.
